@@ -33,13 +33,11 @@ body{
     position: absolute;
     height: 2.5rem;
     width: 2.5rem;
-    border-top: .4rem solid #077512;
-    border-left: .4rem solid #077512;
+  
 }
 
 .faq .heading::before, .faq .heading::after{
-    border-top: .4rem solid #077512;
-    border-left: .4rem solid #077512;
+  
 }
 
 .heading::before, .clients .section-header h2::before, .section-head h1::before, .testimonials .section-header h2::before, .section-head-1 h4::before{
@@ -234,7 +232,9 @@ body{
 .about .row .content p{
     font-size: 2rem;
     color: #333;
-    padding: 1rem 0;
+    padding-left: 15rem ;
+
+    padding-right: 15rem ;
 }
 .pt-5 .container .row .section-head p{
     font-size: 2rem;
@@ -594,14 +594,14 @@ body{
 }    
 
 .team{
-    min-width: 100vw;
+    min-width: 95vw;
     min-height: 95vh;
     text-align: center;
-    background-color: #34c872;
+/*     background-color: #34c872; */
 }
 
 .team .heading{
-    color: #ebebeb;
+    color: #077512;
 }
 
 .team .heading::before, .team .heading::after{
@@ -616,45 +616,45 @@ body{
 }
 
 .team .row .card{
-    height: 28rem;
-    width: 25rem;
-    background-color: #fff;
+    height: 50rem;
+    width: 35rem;
+     background-color: #2fac26; 
     text-align: center;
-    margin: 7rem 7rem;
+    margin: 6rem 6rem;
     position: relative;
     overflow: hidden;
-    -webkit-box-reflect: below 5px linear-gradient(transparent 70%, rgba(7, 133, 74, 0.267));
+/*     -webkit-box-reflect: below 5px linear-gradient(transparent 70%, rgba(7, 133, 74, 0.267)); */
     transition: 0.5s;
 }
-
+/* 
 .team .row .card:hover{
     transform: translateY(-10px);
     cursor: pointer;
-}
+} */
 
 
 .team .row .card .image{
-    margin: 1rem 0;
-    padding-top: 4rem;
+   /*  margin: 1rem 0; */
+    /* padding-top: 2rem; */
 }
 
 .team .row .card .image img{
-    height: 13rem;
-    width: 13rem;
-    border-radius: 50%;
-    border: .5rem solid #fff;
-    box-shadow: 0 0 .5rem rgba(0, 206, 69, 0.3);
+    height: 40rem;
+    width: 35rem;
+  /*   border-radius: 50%; */
+   /*  border: .5rem solid #fff; */
+/*     box-shadow: 0 0 .5rem rgba(0, 206, 69, 0.3); */
     object-fit: cover;
 }
 
 .team .row .card .info h3{
     font-size: 2rem;
-    color: #333;
+    color: #ffffff;
 }
 
 .team .row .card .info span{
     font-size: 1.8rem;
-    color: #17a13c;
+    color: #fafffc;
 }
 
 .team .row .card .info .icons a{
@@ -1177,7 +1177,9 @@ body{
     .about .row .content p{
         font-size: 1.3rem;
         color: #333;
-        padding: 1rem 0;
+        padding-left: 15rem ;
+
+        padding-right: 15rem ;
     } 
 
     .clients {
